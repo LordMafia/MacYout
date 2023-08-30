@@ -11,5 +11,7 @@ Próximo passo seria determinar os icon's Para || MP3 Or MP4.
 
 Para Icon's |MP3 ¨ MP4| Tera uma lista (<ul>Or<Outra>) ao lado que fornecerá as opções de qualidade.
 
-Para Icon |MP3| Segue as opções de qualidade 
+Para Icon |MP3|KB (kbps) Segue as opções de qualidade |192'KB|256'KB|320'KB|.
+
+Para Icon |MP4|P (polegada) Segue as opções de qualidade |360'P|720'P|1080'P|.
 
