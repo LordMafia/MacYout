@@ -15,3 +15,5 @@ Para Icon |MP3|KB (kbps) Segue as opções de qualidade |192'KB|256'KB|320'KB|.
 
 Para Icon |MP4|P (polegada) Segue as opções de qualidade |360'P|720'P|1080'P|.
 
+## requisições somente com youtube ##
+
