@@ -3,7 +3,7 @@
 #Versões // Protótipo Inicial V0.0.1|
 
 
-V0.0.1|| Objetivo. || MacYout fará requisições com Youtube que será identificado pela URL('https://youtube.com/(watch?v=)!important'), <input type="text" name="send" placeholder="Campo Vazio"/>
+V0.0.1|| Objetivo. || MacYout fará requisições com Youtube que será identificado pela URL('https://youtube.com/(watch?v=)!important'),
 
 Reconhecendo o ID ||(watch?v=ID).
 
