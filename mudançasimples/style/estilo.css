@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    margin-top: 0vh;
+}
+
+.corpo-main {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-top: 0;
+    min-height: 700px;
+    max-height: 800px;
+    line-height: 80px;
+    width: 90em;
+    margin-left: 18em;
+    left: 30px;
+    padding: 0;
+    background-color: rgb(37, 35, 35);
+
+} 
+
+.headerpagina {
+
+    display: flex;
+    color: aliceblue;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 60%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000;
+}
+
+.header-body {
+
+
+    padding: 0;
+
+}
+
+.header {
+       padding: 0;
+
+    
+
+}
+
+.block-header {
+
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#header {
+    padding: 0;
+    margin: 160px;
+    
+
+}
+
+#header,.p-opendisc,.p-format,.p-qualid {
+
+    font-size: 22px;
+    color: aliceblue;
+    display: inline;
+
+
+}
+.p-opendisc {
+
+    
+    margin-left: 0px;
+}
+
+.p-format {
+
+    margin-left: 392px;
+}
+
+.p-qualid {
+
+    margin-left: 410px;
+}
+
+.opendisc {
+
+
+    padding: 0;
+   margin-left: 180px;
+    text-align: center;
+    width: 8vh;
+}
+
+.format-mp3 {
+    padding: 0;
+    margin-left: 370px;
+    width: 8vh;
+}
+
+#icon-select {
+   
+    transform: rotate(0deg);  
+    background-repeat: no-repeat;
+    
+    
+    margin-bottom: 0;
+    margin-left: 15px;
+    
+}
+
+#element-select {
+max-width: 40px;  
+max-height: 40px;  
+margin-top: 18px;
+}
+
+.format-mp4 {
+
+    margin-left: 22px;
+    padding: 0;
+    width: 8vh;
+}
+
+.qualid {
+
+    margin-left: 345px;
+    padding: 0;
+    width: 8vh;
+}
+
+.line{
+    height: 10px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right,#000 ,transparent);
+    opacity: 50%;
+    margin-top: -6em;
+}
+
+.main-areabody-progress{
+
+    width: 999px;
+    height: 330px;
+    margin-left: 15%;
+    padding: 50px;
+
+}
+input{
+    color: #000;
+    background: #8f3636;
+    border: 3px solid;
+    border-radius: 12px;
+    width: 120px;
+    height: 50px;
+    padding: 1%;
+    margin-left: 40%;
+    transition: 0.4s;
+    
+}
+input:hover{
+
+    background: #7e3535;
+    cursor: pointer;
+}
+
+.areabody-header {
+    
+    width: auto;
+    height: 90px;
+    text-align: center;
+    font-size: 24px;
+    color: aliceblue;
+    margin-left: 15px;
+}
+
+#body-upload
+{   
+    
+    
+    display: flex;
+    position: relative;
+    height: 90px;
+    width: 890px;
+    padding: 0;
+    background-color: rgb(49, 65, 77);
+}
+.mainbodycarcte-progress{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 480px;
+    left: 869px;
+    bottom: 576px;
+    padding: 3px;
+    margin-top: 0%;
+    margin-left: 70px;
+    background-color: rgb(46, 50, 53);
+}
+
+
+
+#body-caracte{
+
+    display: flex;
+    position: relative;
+    margin-top: 0;
+    height: 200px;
+    width: 480px;
+    padding: 0;
+    background-color: rgb(49, 65, 77);
+}
+
+
+/* Miniatura video*/
+
+.area-miniaturavideo{
+     
+     width: 105px;
+     height: 700px;
+     background-color: rgb(79, 88, 88);
+     margin: 1px;
+}
+
+
+
+#mini1{
+   
+     background-repeat: no-repeat;
+     background-image: url("/img/mini1.png");
+    
+
+}
+
+#mini2{
+     
+    background-image: url("/img/mini2.png");
+    background-repeat: no-repeat;
+
+}
+
+#mini3{
+     
+    background-image: url("/img/mini3.png");
+    background-repeat: no-repeat;
+
+}
+
+#mini4{
+     
+    background-image: url("/img/mini4.png");
+    background-repeat: no-repeat;
+
+}
+
+#mini5{
+     
+    background-image: url("/img/mini5.png");
+    background-repeat: no-repeat;
+
+}
+
+/*#mini1,#mini2,#mini3,#mini4,#mini5,#mini6{
+ background-color: aqua;
+    color: aliceblue;
+}
+*/
