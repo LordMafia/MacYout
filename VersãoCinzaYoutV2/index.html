@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Principal</title>
+</head>
+<body>
+<script type="module" src="./script.js"></script>
+<script src="https://kit.fontawesome.com/0a6712d7ae.js"></script>
+<script> src="http://code.jquery.com/jquery-1.12.0.min.js"</script>
+    <div class="container">
+    <header>
+<nav>
+    <div class="nav_container">
+        <img id="logo" src="img/logo.jpeg" alt="Bluet">
+        <ul>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Display</a></li>
+        <li><a href="#">Som</a></li>
+    </ul>
+    </div>
+</nav>
+<div id="main_banner">
+    <div id="search_form">
+        <h1>MacYoutV2</h1>
+        <p>ParágrafodoParágrafodo</p>
+        
+        <div id="url-form-container">
+            <p class="error-box" id="url-error-box">
+             O URL que você forneceu está incorreto!
+            </p>
+        <form method="GET" class="convert-form">
+            
+            
+            <input type="text" name="url" id="url-text-input" placeholder="Cole a URL do Youtube..">
+            <select class="custom-select" name="bitrate-select" id="bitrate-select">
+                <optgroup label="mp3">
+                    <option value="64k">mp3 64kbps</option>
+                    <option value="128k">mp3 128kbps</option>
+                    <option value="192k">mp3 192kbps</option>
+                    <option value="256k">mp3 256kbps</option>
+                    <option value="320k">mp3 320kbps</option>
+                </optgroup>
+            </select>
+             <input type="submit" id="submit-btn" name="submit" value="buscar">
+            </form>
+</div>
+ </div>  
+    </header>
+    <div class="main-container">
+        <div class="loading-ring" id="get-info-ring"><div></div><div></div><div></div><div></div></div>
+        <div id="download-container">
+                <form class="song-cut-form">
+                </form>
+            </div>
+            <div id="download-info-container">
+                <ul class="song-info-list">
+                </ul>
+        
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="card">
+                <h3>Propriedades || #Versões // Protótipo Inicial V0.0.2|</h3>
+                <ol>
+                    <li>V0.0.2|| Objetivo. || MacYout fará requisições com Youtube que será identificado pela URL('https://youtube.com/(watch?v=)!important'), Reconhecendo o ID ||(watch?v=ID).</li>
+                    <li>Próximo passo seria determinar os icon's Para || MP3 Or MP4. (nesse teste somente MP3)</li>
+                    <li>Para Icon's |MP3 ¨ MP4| Tera uma lista ( ul Or Outra ) ao lado que fornecerá as opções de qualidade.</li>
+                    <li>Para Icon |MP3|KB (kbps) Segue as opções de qualidade |64'KB||128'KB||192'KB|256'KB|320'KB|.</li>
+                    <li>Para Icon |MP4|P (polegada) Segue as opções de qualidade |360'P|720'P|1080'P|. [EM BREVE]</li>
+                    <li>Depois de Finalizado ira aparecer botão "DOWNLOAD"</li>
+                    <li>'Download'</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+</body>
+</html>
