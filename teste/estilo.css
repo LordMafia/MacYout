@@ -1,0 +1,247 @@
+#version {
+    cursor: default;
+    display: flex;
+    color: #cc8d93;
+    justify-content: flex-end;
+}
+
+.wrapper {
+    align-items: center;
+    width: 586px;
+    border: 1px solid #000;
+    border-radius: 3%;
+    color: #fff;
+    display: flex;
+    position: static;
+
+    justify-content: center;
+    /* height: 100px;*/
+    /* width: 250px; */
+
+    /* width: 120px; */
+    /* height: 30px; */
+    background-color: rgba(19, 19, 19, 0.726);
+    color: #ffffff;
+    text-align: center;
+    font-size: large;
+    cursor: default;
+}
+
+
+.texto-google {
+    color: #fff;
+    text-decoration: none;
+
+
+}
+
+.card-google {
+    text-align: center; 
+    margin-bottom: 0%;
+    opacity: 0.8;
+    color: #fff;
+    padding: 15px;
+    background-color: rgba(19, 19, 19, 0.726);
+    border-radius: 10px; 
+    width:270px; 
+    margin-top: 14px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+
+    padding: 0px;
+
+    margin: 0;
+
+     background-color: #454d6b; 
+    background-image: url("lago.jpg");
+
+    color: #333;
+  font-family: "Prompt", sans-serif;
+
+  line-height: 1.5; /* distance between one line of text and the next*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.spacer {
+    aspect-ratio: 1080/150;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+.login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.card {
+
+background-color: rgba(19, 19, 19, 0.726);
+
+ padding: 40px; 
+
+ border-radius: 2px; 
+
+ /*width:280px; */
+}
+
+.card-header {
+    cursor: default;
+
+/* padding-bottom: 50px; */
+
+/* opacity: 0.8; */
+
+color: #fff;
+}
+.error {
+    
+    background-color: #f8d7da;
+    color: #721c24;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #cfadaf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    align-content: center;
+
+    margin-block-start: 5em;
+    margin-block-end: -10em;
+    margin-inline-end: 0px;
+}
+.class error {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* .card-header { */
+
+/* content: ""; */
+
+/* width: 70px; */
+
+/* height: 1px; */
+
+/* background-color: #fff; */
+
+/* display: block; */
+
+/* margin-top: -17px; */
+
+/* margin-left: -5px; */
+
+
+.card-content label {
+
+    color: #fff;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+}
+
+/*.card-content-area {*/
+
+/* display: flex; */
+
+/* flex-direction: column; */
+
+/* padding:10px 0; */
+
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    outline: none;
+
+    color: #fff;
+
+}
+
+/* .card-footer { */
+
+/* display: flex; */
+
+/* flex-direction: column; */
+
+.button {
+    background-color: #853940;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+
+#button input, #button select {
+
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+#submit-btn {
+    width: 150px;
+  }
+
+#button[type=submit] {
+
+    background-color: #1c51e2;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#button[type=submit]:hover {
+
+    background-color: #cc4442;;
+    cursor: pointer;
+}
+
+.recuperar_senha:hover {
+
+    color: #c53535;
+    outline: none;
+    text-decoration: underline;
+    
+}
+
+.text-user {
+
+    color: #853940;
+}
