@@ -17,4 +17,4 @@ Para Icon |MP3|KB (kbps) Segue as opções de qualidade |192'KB|256'KB|320'KB|. 
 
 ## requisições somente com youtube ##
 🧟
-## beta0.3 requisições com localstorege ##
+## 🛰️beta0.3 requisições com localstorege ##
