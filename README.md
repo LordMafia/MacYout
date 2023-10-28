@@ -17,7 +17,7 @@ Para Icon |MP4|P (polegada) Segue as opções de qualidade |360'P|720'P|1080'P|.
 
 ## requisições somente com youtube ##
 
-// Informações do URL
+INFORMAÇÕES DO URL : 
 
 Nessa versão,
 
